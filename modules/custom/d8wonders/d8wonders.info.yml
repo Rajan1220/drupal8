@@ -1,0 +1,6 @@
+name: wonders with drupal 8
+type: custome test module
+description: 'This moudle is created as fun part with drupal 8.'
+package: Custom
+version: 8.x
+core: 8.x
