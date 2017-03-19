@@ -1,0 +1,20 @@
+<?php
+/**
+ * @File
+ * custom module for Drupal 8.
+ * @author rajan
+ */
+ 
+/**
+ * Implementing hook_menu().
+ */
+function example_menu() {
+  // The paths given here need to match the ones in d8wonders.routing.yml exactly.
+  $items['/d8wonders/intro'] = array(
+    'title' => 'Intro to woneders of D8',
+    'description' => 'This is a example page.',
+    // The name of the route d8wonders.routing.yml
+    'route' => 'd8_wonders',
+  );
+  return $items;
+}
