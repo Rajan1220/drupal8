@@ -1,7 +1,0 @@
-d8wonders.d8_wonders:
-  path: '/custom/d8wonders/intro'
-  defaults:
-     _controller: '\Drupal\custom\d8wonders\Controller\d8wondersController::d8wonders'
-    _title: 'Wonders with drupal Eight !'
-  requirements: 
-    _permission: 'access content's
